@@ -1,1 +1,43 @@
-body{margin-top:20px;background-color:#252525;margin-bottom:2em}body a,body a:active,body a:hover,body a:visited,body a:active,body a:hover{color:yellow;text-decoration:none}body .container-fluid .title{display:run-in;color:#ebebeb}body .container-fluid .title hr{border-color:white;border-width:thick}body .container-fluid .textarea{width:80%;margin-left:10%;padding-left:2%;height:450px;resize:none}body .container-fluid #markedUp{width:80%;padding-left:2%;background-color:#a2c1f2;height:450px;border-radius:3%;overflow:auto}body .container-fluid #info{font-size:.75em;color:#dadfe8}
+body {
+  margin-top: 20px;
+  background-color: #252525;
+  margin-bottom: 2em;
+}
+
+body a, body a:active, body a:hover, body a:visited, body a:active, body a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+body .container-fluid .title {
+  display: run-in;
+  color: #ebebeb;
+}
+
+body .container-fluid .title hr {
+  border-color: white;
+  border-width: thick;
+}
+
+body .container-fluid .textarea {
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 2%;
+  height: 450px;
+  resize: none;
+}
+
+body .container-fluid #markedUp {
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 2%;
+  background-color: #a2c1f2;
+  height: 450px;
+  border-radius: 3%;
+  overflow: auto;
+}
+
+body .container-fluid #info {
+  font-size: .75em;
+  color: #dadfe8;
+}
