@@ -1,0 +1,44 @@
+//variable declaration in list form fot links only
+$a-tags: 'a, a:active, a:hover, a:visited, a:active, a:hover';
+
+//note everything nested under body
+body{
+  margin-top:20px;
+  background-color:#252525;
+  margin-bottom:2em;
+  //bring in lists
+  #{$a-tags} {
+  color: yellow;
+  text-decoration: none;
+  }
+  //nest everything else in bootstrap container
+  .container-fluid{
+    .title{
+      display: run-in;
+      color: #ebebeb;
+      hr{
+        border-color: white;
+        border-width: thick;
+      }
+    }
+    .textarea{
+      width:80%;
+      margin-left: 10%;
+      padding-left: 2%;
+      height:450px;
+      resize: none;
+    }
+    #markedUp{
+      width:80%;
+      padding-left: 2%;
+      background-color: #a2c1f2;
+      height:450px;
+      border-radius: 3%;
+      overflow: auto;
+    }
+    #info{
+      font-size: .75em;
+      color: #dadfe8;
+    }
+  }
+}

@@ -2,14 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <script crossorigin src="https://unpkg.com/react@15/dist/react.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@15/dist/react.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script src="js\index.js" type="text/babel"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div class ="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center title">
+          <h1>Markdown Previewer</h1>
+          <h3><a href="instructions.html" target="_blank">Instructions</a></h3>
+          <hr></hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" id="app"></div>
+        <div class="col-md-6">
+          <div id ="markedUp"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center" id="info">
+          Coded by <a href="https://www.freecodecamp.com/dereje1" target="_blank">DGetahun</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
